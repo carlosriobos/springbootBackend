@@ -101,4 +101,10 @@ public class Ejercicio {
         }
         return web;
     }
+
+    @GetMapping("/chiste")
+    public String addJoke(@RequestParam String text) {
+        
+        return "";
+    }
 }
